@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Post Job</title>
+</head>
+<body>
+<nav class="navbar">
+<div class="logo">JobPortal</div>
+<div class="links">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="login.html">Login</a>
+<a href="signup.html">Sign Up</a>
+</div>
+</nav>
+<div class="container">
+<h2>Post New Job</h2>
+<form class="post_job">
+<input type="text" id="post" placeholder="Job Role" required>
+<input type="text" id="name" placeholder="Company Name" required>
+<input type="text" id="location" placeholder="Location" required>
+<input type="number" id="experience" placeholder="Experience in years" required>
+<button type="submit">Post Job</button>
+</form>
+<h2>Posted Jobs</h2>
+<input type="text" id="search_job" placeholder="Search by role, company, location or experience">
+<div id="New_posting"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Job Portal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+<div class="logo">JobPortal</div>
+<div class="links">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="login.html">Login</a>
+<a href="signup.html">Sign Up</a>
+</div>
+</div>
+
+<div class="container">
+<h1>Find Your Dream Job</h1>
+<input type="text" id="searchText" placeholder="Job title or company">
+<select id="roleSelect">
+<option value="">All Roles</option>
+<option value="Frontend">Frontend</option>
+<option value="Backend">Backend</option>
+<option value="Fullstack">Fullstack</option>
+<option value="ML/AI">ML/AI</option>
+<option value="Cloud">Cloud</option>
+</select>
+<select id="locSelect">
+<option value="">All Locations</option>
+<option value="Bangalore">Bangalore</option>
+<option value="Pune">Pune</option>
+<option value="Mumbai">Mumbai</option>
+<option value="Delhi">Delhi</option>
+</select>
+<button onclick="searchJobs()">Search Jobs</button>
+</div>
+
+<div class="container" id="jobCards">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
